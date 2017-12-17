@@ -1,0 +1,14 @@
+- title: <img src="images/logo_prise.png" alt="logo" class="logo_nav">
+  url: /index.html
+
+- title: Product
+  url: /product.html
+
+- title: Over ons
+  url: /overons.html
+
+- title: <img src="images/winkelwagen.png" alt="logo" class="winkelwagen_nav">
+  url: /winkelmandje/index.html
+
+
+

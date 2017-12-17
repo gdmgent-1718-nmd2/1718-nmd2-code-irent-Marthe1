@@ -8,13 +8,23 @@
 // Color system
 //
 
-$indigo:  #6610f2;
-$primary: $indigo;
+$roos:  #EECFCF;
+$primary: $roos;
+
+$donker_blauw:  #5DABB2;
+$secondary: $donker_blauw;
+
+$licht_blauw: #90C5CD;
+$tertiary:  $licht_blauw;
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed);
+$font-family-base: 'Fira Sans Condensed', sans-serif;
 
-$font-family-base: Merriweather, serif;
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+$font-family-title: 'Fjalla One', sans-serif;
+
+
