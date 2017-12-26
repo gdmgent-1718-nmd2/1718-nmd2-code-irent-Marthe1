@@ -4,6 +4,7 @@ h1 {
     font-family: $font-family-title;
     color: #000000;
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -22,7 +23,7 @@ p {
 
 /* wrapper */
 
-.wrapper-roze{
+.roze{
     background-color: $primary;
     padding: 20px;
 }
@@ -44,7 +45,7 @@ p {
     border-radius: 4px;
 }
 
-.wrapper {
+#button {
     text-align: center;
 }
 
@@ -75,21 +76,24 @@ p {
     background-color: $secondary;
     margin-top: 35px;
     margin-bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer ul {
+    list-style: none;
+    color: white;
+    padding: 0px;
 }
 
 .footer a {
     text-decoration: none;
-    color: black;
-}
-
-.footer a:hover {
-    color: $primary;
+    padding: 0px;
+    color: white;
 }
 
 /* HOME */
-#wrapper_bottom {
-    margin-bottom: 110px;
-}
+
 
 /* PRODUCT */
 #stopcontact {
@@ -100,13 +104,19 @@ p {
 }
 
 #form {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+#button_bottom {
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 
 /* BESTELPAGINA */
 .form-group {
-    margin-bottom: 35px;
+    margin-bottom: 60px;
 }
 
 #button_bestel{
@@ -115,9 +125,13 @@ p {
 }
 
 /* BEDANKINGSPAGINA */
-#wrapper-roze {
+#bedanking {
     margin-top: 35px;
-    margin-bottom: 90px;
+}
+
+#leeg_stopcontact {
+    height: 100px;
+    margin: auto;
 }
 
 /* OVER ONS */
@@ -132,16 +146,18 @@ p {
    border-radius: 5px;
 }
 
-#wrapper_overons {
+#overons {
     margin-bottom: 35px;
 }
 
-#wrapper_list {
+#list {
     margin-top: 35px;
 }
 
 #iframe {
-    height: 150px
+    height: 200px;
+    display: block;
+    margin: 0px auto;
 }
 
 .contact {
@@ -155,7 +171,11 @@ p {
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+    #leeg_stopcontact {
+        height: 200px;
+    }
+ }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -163,8 +183,12 @@ p {
         font-size: 16px;
     }
 
-    h2 {
+    h1 {
         font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
     }
 
     .button_reserveer {
@@ -185,8 +209,26 @@ p {
         margin-bottom: 25px;
     }
 
-    #wrapper_overons {
+    #overons {
         margin-top: 20px;
+    }
+
+    .nav-item a {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .footer {
+        font-size: 15px;
+    }
+
+    #leeg_stopcontact {
+        height: 300px;
+    }
+
+    #iframe {
+        height: 300px;
+        width: 500px;
     }
 
 }
@@ -196,28 +238,25 @@ p {
         font-size: 18px;
     }
 
-    .button_reserveer {
-        width: 20%;
-        font-size: 20px;
-    }
-
-    
-    .logo_nav {
-        height: 30px;
-    }
-    
-    .winkelwagen_nav {
-        height: 40px;
-    }
-    
-    #persoon {
+       #persoon {
         height: 250px;
         margin-bottom: 30px;
     }
 
-    #wrapper_overons {
+    #overons {
         margin-top: 25px;
     }
 
+    .footer {
+        font-size: 18px;
+    }
+
+    #button_bottom {
+        margin-bottom: 120px;
+    }
+
+    #leeg_stopcontact {
+        height: 450px;
+    }
 }
 
