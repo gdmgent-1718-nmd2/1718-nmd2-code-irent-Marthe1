@@ -11,6 +11,7 @@ h2 {
     font-family: $font-family-title;
     color: #000000;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 
@@ -158,6 +159,7 @@ p {
     height: 200px;
     display: block;
     margin: 0px auto;
+    margin-bottom: 35px;
 }
 
 .contact {
@@ -192,8 +194,8 @@ p {
     }
 
     .button_reserveer {
-        width: 20%;
-        font-size: 20px;
+        font-size: 18px;
+        width: 200px;
     }
 
     .logo_nav {
@@ -228,8 +230,9 @@ p {
 
     #iframe {
         height: 300px;
-        width: 500px;
     }
+    
+    
 
 }
 // Large devices (desktops, 992px and up)
@@ -238,9 +241,9 @@ p {
         font-size: 18px;
     }
 
-       #persoon {
-        height: 250px;
-        margin-bottom: 30px;
+    #persoon {
+    height: 250px;
+    margin-bottom: 30px;
     }
 
     #overons {
@@ -257,6 +260,10 @@ p {
 
     #leeg_stopcontact {
         height: 450px;
+    }
+
+    .roze_contact {
+        background-color: white;
     }
 }
 
