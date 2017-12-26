@@ -10,7 +10,7 @@ h1 {
 h2 {
     font-family: $font-family-title;
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -18,7 +18,7 @@ h2 {
 p {
     font-family: $font-family-base;
     color: #000000;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px;
 }
 
@@ -61,7 +61,7 @@ p {
 
 .navbar {
     background-color: $primary;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 .navbar a {
@@ -101,14 +101,14 @@ p {
     display: block;
     margin: 0px auto;
     width: 50%;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 #form {
     margin-top: 30px;
 }
 
-#button_bottom {
+#button_bottom_reserveer {
     margin-bottom: 35px;
     margin-top: 10px;
     text-align: center;
@@ -124,6 +124,13 @@ p {
     margin-top: 0px;
     margin-bottom: 35px;
 }
+
+#button_bottom {
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 /* BEDANKINGSPAGINA */
 #bedanking {
@@ -169,6 +176,11 @@ p {
 }
 
 
+/* WINKELMANDJE */
+.form-control {
+    margin-bottom: 35px;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -182,7 +194,7 @@ p {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     h1 {
@@ -190,7 +202,7 @@ p {
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .button_reserveer {
@@ -230,9 +242,12 @@ p {
 
     #iframe {
         height: 300px;
+        width: 500px;
     }
     
-    
+    .roze_contact {
+        background-color: white;
+    }
 
 }
 // Large devices (desktops, 992px and up)
@@ -258,12 +273,13 @@ p {
         margin-bottom: 120px;
     }
 
+    #button_bottom_reserveer {
+        margin-bottom: 7px;
+    }
+
     #leeg_stopcontact {
         height: 450px;
     }
-
-    .roze_contact {
-        background-color: white;
-    }
+    
 }
 
