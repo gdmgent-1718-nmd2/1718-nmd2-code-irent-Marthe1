@@ -125,7 +125,7 @@ p {
     margin-bottom: 35px;
 }
 
-#button_bottom {
+#button_bottom_bevestigen {
     margin-bottom: 35px;
     margin-top: 10px;
     text-align: center;
@@ -180,6 +180,13 @@ p {
 .form-control {
     margin-bottom: 35px;
 }
+
+#button_bottom {
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -270,11 +277,15 @@ p {
     }
 
     #button_bottom {
-        margin-bottom: 120px;
+        margin-bottom: 135px;
     }
 
     #button_bottom_reserveer {
-        margin-bottom: 7px;
+        margin-bottom: 23px;
+    }
+
+    #button_bottom_bevestigen {
+        margin-bottom: 120px;
     }
 
     #leeg_stopcontact {
